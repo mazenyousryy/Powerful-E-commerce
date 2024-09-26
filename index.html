@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Powerful E-commerce</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- Style Sheet -->
+  <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+
+<body>
+  <header class="container-desktop-view">
+    <div class="logo d-flex d-flex-center center-header">
+      <a href="/"><img src="./assets/images/Logo.svg" alt="E-commerce Logo"></a>
+      <div class="search-bar d-flex d-flex-center center-header">
+        <div class="search-container d-flex d-flex-center bg-white desktop-view">
+          <div class="category-dropdown d-mobile">
+            <select>
+              <option>All categories</option>
+              <option>Category 1</option>
+              <option>Category 2</option>
+              <option>Category 3</option>
+            </select>
+          </div>
+          <form action="" class="d-flex d-flex-center">
+            <input type="search" placeholder="Search anything" class="search-input input-style small-font">
+            <button class="bg-white input-style">
+              <img src="./assets/icons/Search_alt_duotone_line.svg" alt="Search Icon">
+            </button>
+          </form>
+        </div>
+      </div>
+      <ul class="user-links d-flex d-flex-center center-header">
+        <li class="help-btn d-mobile"><a href="#">Help</a></li>
+        <li><a href="#"><img src="./assets/icons/User.svg" alt="User Icon"><span class="d-mobile">Account</span></a>
+        </li>
+        <li class="shopping-cart d-flex-tablet">
+          <span class="d-mobile">Shopping</span>
+          <div class="icon-container">
+            <img src="./assets/icons/Bag.svg" alt="Cart Icon" class="icon-badge">
+            <span class="notification-badge">16</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="search-bar d-flex d-flex-center center-header desktop-view-hide">
+      <div class="menu-icon-container d-flex d-flex-center bg-white">
+        <img src="./assets/icons/Sort.svg" alt="Menu Icon">
+      </div>
+      <div class="search-container d-flex d-flex-center bg-white">
+        <div class="category-dropdown d-mobile">
+          <select>
+            <option>All categories</option>
+            <option>Category 1</option>
+            <option>Category 2</option>
+            <option>Category 3</option>
+          </select>
+        </div>
+        <form action="" class="d-flex d-flex-center">
+          <input type="search" placeholder="Search anything" class="search-input input-style small-font">
+          <button class="bg-white input-style">
+            <img src="./assets/icons/Search_alt_duotone_line.svg" alt="Search Icon">
+          </button>
+        </form>
+      </div>
+    </div>
+    <nav class="nav-menu d-tablet-mobile d-mobile">
+      <ul>
+        <li><a href="#">Jewelry & Accessories</a></li>
+        <li><a href="#">Clothing & Shoes</a></li>
+        <li><a href="#">Home & Living</a></li>
+        <li><a href="#">Wedding & Party</a></li>
+        <li><a href="#">Toys & Entertainment</a></li>
+        <li><a href="#">Art & Collectibles</a></li>
+        <li><a href="#">Craft Supplies & Tools</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container-desktop-view">
+    <section id="categories" class="d-flex d-flex-center d-flex-col outer-section-spacing">
+      <div class="inner-container">
+        <div class="category-item p-relative inner-section-spacing">
+          <img src="./assets/images/shoe-wide-2.png" alt="Clothing and Shoes Category" class="card-border-radius">
+          <p class="category-title">Clothing & Shoes</p>
+        </div>
+        <div class="category-item p-relative inner-section-spacing">
+          <img src="./assets/images/living-wide-2.png" alt="Home and Living Category" class="card-border-radius">
+          <p class="category-title">Home & Living</p>
+        </div>
+        <div class="category-item p-relative inner-section-spacing">
+          <img src="./assets/images/art-wide-2.png" alt="Art & Collectibles Category" class="card-border-radius">
+          <p class="category-title">Art & Collectibles</p>
+        </div>
+      </div>
+    </section>
+    <section id="products" class="scroll-behavior">
+      <div class="product-card p-relative card-border-radius d-flex d-flex-col" id="product-card-1">
+        <div class="product-img-details">
+          <img src="./assets/images/chair.png" alt="Chair Image" class="product-image">
+        </div>
+        <div class="product-favorite d-flex d-flex-center">
+          <img src="./assets/icons/Favorite.svg" alt="Add Product Favorite">
+        </div>
+        <div class="product-details">
+          <div class="product-colors">
+            <p>Colors</p>
+            <div class="color-options  d-flex">
+              <span class="color color-1"></span>
+              <span class="color color-2"></span>
+              <span class="color color-3"></span>
+              <span class="color color-4"></span>
+              <span class="color color-5"></span>
+              <span class="color color-6"></span>
+              <span class="color color-7"></span>
+            </div>
+          </div>
+          <div class="product-name-price">
+            <p class="product-name">Vonna Neva Walnut Sandalye Chair</p>
+            <p class="product-price medium-font">195,13 &dollar;</p>
+          </div>
+        </div>
+      </div>
+      <div class="product-card p-relative card-border-radius d-flex d-flex-col" id="product-card-2">
+        <div class="product-img-details">
+          <img src="./assets/images/short-lamp.png" alt="Lamp Image" class="product-image">
+        </div>
+        <div class="product-favorite d-flex d-flex-center">
+          <img src="./assets/icons/Favorite.svg" alt="Add Product Favorite">
+        </div>
+        <div class="product-details">
+          <div class="product-colors">
+            <p>Colors</p>
+            <div class="color-options d-flex">
+              <span class="color color-1"></span>
+              <span class="color color-4"></span>
+              <span class="color color-5"></span>
+              <span class="color color-6"></span>
+              <span class="color color-7"></span>
+            </div>
+          </div>
+          <div class="product-name-price">
+            <p class="product-name">Wood lamp, Floor Lamp, Lambader, Decorative</p>
+            <p class="product-price medium-font">458,43 &dollar;</p>
+          </div>
+        </div>
+      </div>
+      <div class="product-card p-relative card-border-radius d-flex d-flex-col" id="product-card-3">
+        <div class="product-img-details">
+          <img src="./assets/images/chair2.png" alt="Chair Image" class="product-image">
+        </div>
+        <div class="product-favorite d-flex d-flex-center">
+          <img src="./assets/icons/Favorite.svg" alt="Add Product Favorite">
+        </div>
+        <div class="product-details">
+          <div class="product-colors">
+            <p>Colors</p>
+            <div class="color-options d-flex">
+              <span class="color color-4"></span>
+              <span class="color color-5"></span>
+              <span class="color color-6"></span>
+            </div>
+          </div>
+          <div class="product-name-price">
+            <p class="product-name">NOCKEBY 3-Seat Sofa Cover Slipcover Hand Made</p>
+            <p class="product-price medium-font">789,67 &dollar;</p>
+          </div>
+        </div>
+      </div>
+      <div class="product-card p-relative card-border-radius d-flex d-flex-col" id="product-card-4">
+        <div class="product-img-details">
+          <img src="./assets/images/pillow.png" alt="Pillow Image" class="product-image">
+        </div>
+        <div class="product-favorite d-flex d-flex-center">
+          <img src="./assets/icons/Favorite.svg" alt="Add Product Favorite">
+        </div>
+        <div class="product-details">
+          <div class="product-colors">
+            <p>Colors</p>
+            <div class="color-options d-flex">
+              <span class="color color-1"></span>
+              <span class="color color-3"></span>
+              <span class="color color-5"></span>
+              <span class="color color-6"></span>
+              <span class="color color-7"></span>
+            </div>
+          </div>
+          <div class="product-name-price">
+            <p class="product-name">Lace Punch Needle Pillow Covers with invisible zipper, 16*16 inches</p>
+            <p class="product-price medium-font">43,23 &dollar;</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="pagination d-flex d-flex-center">
+      <span class="dot"></span>
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+    <section id="testimonial" class="scroll-behavior">
+      <div class="testimonial-card d-flex d-flex-center d-flex-col">
+        <div class="testimonial-img">
+          <img src="./assets/images/art1-circle.png" alt="Art Circle">
+        </div>
+        <div class="testimonial-text-container">
+          <p class="d-flex-center d-flex medium-font">A community doing good</p>
+          <p class="testimonial-text small-font">Commerce is a global online marketplace, where people.</p>
+        </div>
+      </div>
+      <div class="testimonial-card d-flex d-flex-center d-flex-col">
+        <div class="testimonial-img">
+          <img src="./assets/images/art2-circle.png" alt="Art Circle">
+        </div>
+        <div class="testimonial-text-container">
+          <p class="d-flex-center d-flex medium-font">Support independent creators</p>
+          <p class="testimonial-text small-font">Just millions of people selling the things they love.</p>
+        </div>
+      </div>
+      <div class="testimonial-card d-flex d-flex-center d-flex-col">
+        <div class="testimonial-img">
+          <img src="./assets/images/art3-circle.png" alt="Art Circle">
+        </div>
+        <div class="testimonial-text-container">
+          <p class="d-flex-center d-flex medium-font">Peace of mind</p>
+          <p class="testimonial-text small-font">Privacy is the highest priority of our dedicated team.</p>
+        </div>
+      </div>
+    </section>
+    <div class="pagination d-flex d-flex-center">
+      <span class="dot"></span>
+      <span class="dot active"></span>
+      <span class="dot"></span>
+    </div>
+    <section id="recommended-products">
+      <div class="section-title d-flex d-flex-col">
+        <div class="section-title-header d-flex d-flex-col medium-font">
+          <p>Find things you'll love.&nbsp;</p>
+          <p>Support independent sellers.</p>
+        </div>
+        <p class="section-title-body small-font">Only on polka.</p>
+      </div>
+      <div class="recommended-products-list scroll-behavior">
+        <div class="recommended-products-card">
+          <div class="recommended-products-img card-border-radius">
+            <img src="./assets/images/lion-puppet-small.png" alt="Small Lion Puppet" class="card-border-radius">
+          </div>
+          <p class="medium-font">Craft Kits</p>
+        </div>
+        <div class="recommended-products-card">
+          <div class="recommended-products-img card-border-radius">
+            <img src="./assets/images/pillow-small.png" alt="Colored Pillow" class="card-border-radius">
+          </div>
+          <p class="medium-font">Throw Pillows</p>
+        </div>
+        <div class="recommended-products-card">
+          <div class="recommended-products-img card-border-radius">
+            <img src="./assets/images/cup-small.png" alt="Cup" class="card-border-radius">
+          </div>
+          <p class="medium-font">Natural Glass</p>
+        </div>
+        <div class="recommended-products-card">
+          <div class="recommended-products-img card-border-radius">
+            <img src="./assets/images/decoration1-small.png" alt="Decoration" class="card-border-radius">
+          </div>
+          <p class="medium-font">Self-care</p>
+        </div>
+        <div class="recommended-products-card">
+          <div class="recommended-products-img card-border-radius">
+            <img src="./assets/images/decoration2-small.png" alt="Decoration" class="card-border-radius">
+          </div>
+          <p class="medium-font">Gift Ideas</p>
+        </div>
+        <div class="recommended-products-card">
+          <div class="recommended-products-img card-border-radius">
+            <img src="./assets/images/bed-small.png" alt="Small Bed" class="card-border-radius">
+          </div>
+          <p class="medium-font">Wall Decor</p>
+        </div>
+        <div class="recommended-products-card">
+          <div class="recommended-products-img card-border-radius">
+            <img src="./assets/images/axe-small.png" alt="Axe" class="card-border-radius">
+          </div>
+          <p class="medium-font">Wedding</p>
+        </div>
+        <div class="recommended-products-card">
+          <div class="recommended-products-img card-border-radius">
+            <img src="./assets/images/couch-small.png" alt="Couch" class="card-border-radius">
+          </div>
+          <p class="medium-font">Life Style</p>
+        </div>
+      </div>
+    </section>
+    <div class="pagination d-flex d-flex-center">
+      <span class="dot"></span>
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+    <section id="discover-products">
+      <div class="discover-title section-title d-flex d-flex-col">
+        <div class="section-title-header d-flex d-flex-col medium-font">
+          <p>Discover unique</p>
+          <p>hand-picked items</p>
+        </div>
+        <a href="#" class="view-all d-mobile">View all <i class="fa-solid fa-arrow-right-long"></i></a>
+      </div>
+      <div class="discover-products-list scroll-behavior">
+        <div class="product-card p-relative card-border-radius d-flex d-flex-col">
+          <div class="product-img-details">
+            <img src="./assets/images/bag1-med.png" alt="Leather Bag Image" class="product-image">
+          </div>
+          <div class="product-favorite">
+            <img src="./assets/icons/Favorite.svg" alt="Add Product Favorite">
+          </div>
+          <div class="product-details product-name-price">
+            <p class="product-name small-font">Distressed Tote Leather Bag Leather Bag</p>
+            <p class="product-price medium-font">216,27 &dollar;</p>
+          </div>
+        </div>
+        <div class="product-card p-relative card-border-radius d-flex d-flex-col">
+          <div class="product-img-details">
+            <img src="./assets/images/sandals-med.png" alt="Women Sandals Image" class="product-image">
+          </div>
+          <div class="product-favorite">
+            <img src="./assets/icons/Favorite.svg" alt="Add Product Favorite">
+          </div>
+          <div class="product-details product-name-price">
+            <p class="product-name small-font">Womens Cognac Leather Elastic Straps</p>
+            <p class="product-price medium-font">195,13 &dollar;</p>
+          </div>
+        </div>
+        <div class="product-card p-relative card-border-radius d-flex d-flex-col">
+          <div class="product-img-details">
+            <img src="./assets/images/bag2-med.png" alt="Leather Bag Image" class="product-image">
+          </div>
+          <div class="product-favorite">
+            <img src="./assets/icons/Favorite.svg" alt="Add Product Favorite">
+          </div>
+          <div class="product-details product-name-price">
+            <p class="product-name small-font">Distressed Tote Leather Bag Leather Bag</p>
+            <p class="product-price medium-font">910,76 &dollar;</p>
+          </div>
+        </div>
+        <div class="product-card p-relative card-border-radius d-flex d-flex-col">
+          <div class="product-img-details">
+            <img src="./assets/images/shoes-med.png" alt="High-top Shoes Image" class="product-image">
+          </div>
+          <div class="product-favorite">
+            <img src="./assets/icons/Favorite.svg" alt="Add Product Favorite">
+          </div>
+          <div class="product-details product-name-price">
+            <p class="product-name small-font">High Top Canvas Shoes</p>
+            <p class="product-price medium-font">341,02 &dollar;</p>
+          </div>
+        </div>
+        <div class="product-card p-relative card-border-radius d-flex d-flex-col">
+          <div class="product-img-details">
+            <img src="./assets/images/ring-med.png" alt="Wedding Ring Image" class="product-image">
+          </div>
+          <div class="product-favorite">
+            <img src="./assets/icons/Favorite.svg" alt="Add Product Favorite">
+          </div>
+          <div class="product-details product-name-price">
+            <p class="product-name small-font">Rose Gold Moissanite Vintage Wedding Ring Set</p>
+            <p class="product-price medium-font">3.344,13 &dollar;</p>
+          </div>
+        </div>
+        <div class="product-card p-relative card-border-radius d-flex d-flex-col">
+          <div class="product-img-details">
+            <img src="./assets/images/bracelet-med.png" alt="Bangle 24k Gold Image" class="product-image">
+          </div>
+          <div class="product-favorite">
+            <img src="./assets/icons/Favorite.svg" alt="Add Product Favorite">
+          </div>
+          <div class="product-details product-name-price">
+            <p class="product-name small-font">Blue Topaz Bangle 24K Gold Plated Handmade</p>
+            <p class="product-price medium-font">789,09 &dollar;</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="pagination tablet-screen d-flex d-flex-center">
+      <span class="dot"></span>
+      <span class="dot active"></span>
+      <span class="dot"></span>
+    </div>
+    <section id="categories-names-list" class="scroll-behavior">
+      <div class="category-name-list-item">
+        <p>Modern Farmhouse</p>
+      </div>
+      <div class="category-name-list-item">
+        <p>Eclectic Decor</p>
+      </div>
+      <div class="category-name-list-item">
+        <p>Polka Boho Decor</p>
+      </div>
+      <div class="category-name-list-item">
+        <p>Minimalist Style</p>
+      </div>
+      <div class="category-name-list-item">
+        <p>Anniversary Gift</p>
+      </div>
+      <div class="category-name-list-item">
+        <p>Wedding Gifts</p>
+      </div>
+    </section>
+    <section id="products-bottom" class="scroll-behavior">
+      <img src="./assets/images/shoe-2.png" alt="Sport Shoes Image" class="product-image-bottom card-border-radius">
+      <div class="product-card p-relative card-border-radius d-flex d-flex-col" id="product-card-5">
+        <div class="product-img-details">
+          <img src="./assets/images/lamp.png" alt="Lamp Image" class="product-image">
+        </div>
+        <div class="product-favorite d-flex d-flex-center">
+          <img src="./assets/icons/Favorite.svg" alt="Add Product Favorite">
+        </div>
+        <div class="product-details">
+          <div class="product-colors">
+            <p>Colors</p>
+            <div class="color-options  d-flex">
+              <span class="color color-1"></span>
+              <span class="color color-2"></span>
+              <span class="color color-3"></span>
+              <span class="color color-4"></span>
+              <span class="color color-5"></span>
+              <span class="color color-6"></span>
+              <span class="color color-7"></span>
+            </div>
+          </div>
+          <div class="product-name-price">
+            <p class="product-name small-font">Rovena Riva Series 6 Pcs. Wide Seating Claret Red Chair</p>
+            <p class="product-price medium-font">195,13 &dollar;</p>
+          </div>
+        </div>
+      </div>
+      <div class="product-card p-relative card-border-radius d-flex d-flex-col" id="product-card-6">
+        <div class="product-img-details">
+          <img src="./assets/images/iphone.png" alt="Iphone Image" class="product-image">
+        </div>
+        <div class="product-favorite d-flex d-flex-center">
+          <img src="./assets/icons/Favorite.svg" alt="Add Product Favorite">
+        </div>
+        <div class="product-details">
+          <div class="product-colors">
+            <p>Colors</p>
+            <div class="color-options d-flex">
+              <span class="color color-1"></span>
+              <span class="color color-4"></span>
+              <span class="color color-5"></span>
+              <span class="color color-6"></span>
+              <span class="color color-7"></span>
+            </div>
+          </div>
+          <div class="product-name-price">
+            <p class="product-name">Iphone 12 128 GB (Red) Apple</p>
+            <p class="product-price medium-font">458,43 &dollar;</p>
+          </div>
+        </div>
+      </div>
+      <div class="product-card p-relative card-border-radius d-flex d-flex-col" id="product-card-7">
+        <div class="product-img-details">
+          <img src="./assets/images/cream.png" alt="Cream Image" class="product-image">
+        </div>
+        <div class="product-favorite d-flex d-flex-center">
+          <img src="./assets/icons/Favorite.svg" alt="Add Product Favorite">
+        </div>
+        <div class="product-details">
+          <div class="product-colors">
+            <p>Colors</p>
+            <div class="color-options d-flex">
+              <span class="color color-4"></span>
+              <span class="color color-5"></span>
+              <span class="color color-6"></span>
+            </div>
+          </div>
+          <div class="product-name-price">
+            <p class="product-name">Rovena Riva Series 6 Pcs. Wide Seating Claret Red Chair</p>
+            <p class="product-price medium-font">789,67 &dollar;</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="discover-products-bottom">
+      <div class="discover-products-list scroll-behavior">
+        <div class="product-card p-relative card-border-radius d-flex-col">
+          <div class="product-img-details">
+            <img src="./assets/images/bag1-med.png" alt="Leather Bag Image" class="product-image">
+          </div>
+          <div class="product-favorite">
+            <img src="./assets/icons/Favorite.svg" alt="Add Product Favorite">
+          </div>
+          <div class="product-details product-name-price">
+            <p class="product-name small-font">Distressed Tote Leather Bag Leather Bag</p>
+            <p class="product-price medium-font">216,27 &dollar;</p>
+          </div>
+        </div>
+        <div class="product-card p-relative card-border-radius d-flex-col">
+          <div class="product-img-details">
+            <img src="./assets/images/sandals-med.png" alt="Women Sandals Image" class="product-image">
+          </div>
+          <div class="product-favorite">
+            <img src="./assets/icons/Favorite.svg" alt="Add Product Favorite">
+          </div>
+          <div class="product-details product-name-price">
+            <p class="product-name small-font">Womens Cognac Leather Elastic Straps</p>
+            <p class="product-price medium-font">195,13 &dollar;</p>
+          </div>
+        </div>
+        <div class="product-card p-relative card-border-radius d-flex-col">
+          <div class="product-img-details">
+            <img src="./assets/images/bag2-med.png" alt="Leather Bag Image" class="product-image">
+          </div>
+          <div class="product-favorite">
+            <img src="./assets/icons/Favorite.svg" alt="Add Product Favorite">
+          </div>
+          <div class="product-details product-name-price">
+            <p class="product-name small-font">Distressed Tote Leather Bag Leather Bag</p>
+            <p class="product-price medium-font">910,76 &dollar;</p>
+          </div>
+        </div>
+        <div class="product-card p-relative card-border-radius d-flex-col">
+          <div class="product-img-details">
+            <img src="./assets/images/shoes-med.png" alt="High-top Shoes Image" class="product-image">
+          </div>
+          <div class="product-favorite">
+            <img src="./assets/icons/Favorite.svg" alt="Add Product Favorite">
+          </div>
+          <div class="product-details product-name-price">
+            <p class="product-name small-font">High Top Canvas Shoes</p>
+            <p class="product-price medium-font">341,02 &dollar;</p>
+          </div>
+        </div>
+        <div class="product-card p-relative card-border-radius d-flex-col">
+          <div class="product-img-details">
+            <img src="./assets/images/ring-med.png" alt="Wedding Ring Image" class="product-image">
+          </div>
+          <div class="product-favorite">
+            <img src="./assets/icons/Favorite.svg" alt="Add Product Favorite">
+          </div>
+          <div class="product-details product-name-price">
+            <p class="product-name small-font">Rose Gold Moissanite Vintage Wedding Ring Set</p>
+            <p class="product-price medium-font">3.344,13 &dollar;</p>
+          </div>
+        </div>
+        <div class="product-card p-relative card-border-radius d-flex-col">
+          <div class="product-img-details">
+            <img src="./assets/images/bracelet-med.png" alt="Bangle 24k Gold Image" class="product-image">
+          </div>
+          <div class="product-favorite">
+            <img src="./assets/icons/Favorite.svg" alt="Add Product Favorite">
+          </div>
+          <div class="product-details product-name-price">
+            <p class="product-name small-font">Blue Topaz Bangle 24K Gold Plated Handmade</p>
+            <p class="product-price medium-font">789,09 &dollar;</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="pagination tablet-screen d-flex d-flex-center">
+      <span class="dot"></span>
+      <span class="dot active"></span>
+      <span class="dot"></span>
+    </div>
+    <section class="subscribe">
+      <p class="subscribe-head">Yes!</p>
+      <p class="subscribe-offer">Send me exclusive offers, unique gift ideas, and personalized tips for shopping
+        and
+        selling on Commerce.
+      </p>
+      <div class="input-group">
+        <!-- Mobile View -->
+        <input type="email" placeholder="Drop your Email" class="input-style">
+        <button type="button" class="input-style d-flex d-flex-center">Subscribe <i
+            class="fa-solid fa-arrow-right-long"></i> </button>
+      </div>
+    </section>
+  </main>
+  <p class="p-commerce">Commerce, is powered by 100% renewable electricity.</p>
+  <footer class="container-desktop-view">
+    <ul class="menu footer">
+      <li>
+        <ul class="social-media-tablet-view tablet-view">
+          <li>
+            <img src="./assets/images/Logo.svg" alt="">
+          </li>
+          <li>
+            <p>Cricklewood,<br>London NW2 6qg,<br>Uk</p>
+          </li>
+          <li>
+            <div class="social-media-items-tablet-view">
+              <div>
+                <img src="./assets/icons/linkedin.svg" alt="Linkedin Icon">
+                <img src="./assets/icons/dribbble.svg" alt="Dribble Icon">
+              </div>
+              <div>
+                <img src="./assets/icons/twitter.svg" alt="Twitter Icon">
+                <img src="./assets/icons/facebook.svg" alt="Facebook Icon">
+              </div>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <div class="list-drop-item d-flex d-flex-center">Shop <i class="fa-solid fa-caret-down"></i></div>
+        <ul class="dropdown">
+          <li>Gift cards</li>
+          <li>Site map</li>
+          <li>Polka blog</li>
+          <li>Login</li>
+          <li>Sign in</li>
+        </ul>
+      </li>
+      <li>
+        <div class="list-drop-item d-flex d-flex-center">About <i class="fa-solid fa-caret-down"></i></div>
+        <ul class="dropdown">
+          <li>Polka, Inc.</li>
+          <li>Policies</li>
+          <li>Investors</li>
+          <li>Careers</li>
+          <li>Press</li>
+        </ul>
+      </li>
+      <li>
+        <div class="list-drop-item d-flex d-flex-center">Sell <i class="fa-solid fa-caret-down"></i></div>
+        <ul class="dropdown">
+          <li>Sell on Polka</li>
+          <li>Teams</li>
+          <li>Forums</li>
+          <li>Affiliates</li>
+        </ul>
+      </li>
+      <li>
+        <div class="list-drop-item d-flex d-flex-center">Help <i class="fa-solid fa-caret-down"></i></div>
+        <ul class="dropdown">
+          <li>Help Center</li>
+          <li>Trust and safety</li>
+          <li>Privacy settings</li>
+        </ul>
+      </li>
+    </ul>
+    <ul class="social-media mobile-view footer d-mobile">
+      <li><img src="./assets/icons/facebook.svg" alt="Facebook Icon"></li>
+      <li><img src="./assets/icons/twitter.svg" alt="Twitter Icon"></li>
+      <li><img src="./assets/icons/linkedin.svg" alt="Linkedin Icon"></li>
+      <li><img src="./assets/icons/dribbble.svg" alt="Dribble Icon"></li>
+    </ul>
+    <div class="privacy-terms footer">
+      <div class="privacy-terms-copyrights">
+        <p class="copy-rights">&copy; 2022 Commerce, Inc.</p>
+        <ul class="d-mobile">
+          <li class="medium-font">Privacy policy</li>
+          <li class="active medium-font">Terms of use</li>
+          <li class="medium-font">Cookies</li>
+        </ul>
+      </div>
+      <div class="scroll-top d-mobile">
+        <a href="" class="small-font">Scroll to top <i class="fa-solid fa-arrow-up-long"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
